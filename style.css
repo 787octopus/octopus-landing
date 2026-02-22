@@ -433,6 +433,20 @@ body {
     font-size: 0.9rem;
 }
 
+.team-contact {
+    display: inline-block;
+    margin-top: 12px;
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.team-contact:hover {
+    color: var(--accent-dark);
+}
+
 /* ===== FOOTER ===== */
 .footer {
     padding: 48px 0 24px;
@@ -450,6 +464,11 @@ body {
     color: var(--text-muted);
     font-size: 0.9rem;
     margin-top: 4px;
+}
+
+.footer-address {
+    font-size: 0.85rem !important;
+    margin-top: 8px !important;
 }
 
 .footer-links {
